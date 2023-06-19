@@ -3,6 +3,10 @@
     padding-top: 30px
 }
 
+.block-container img {
+    margin-top: -30px
+}
+
 thead tr th:first-child {
     display: none
 }
@@ -14,22 +18,4 @@ tbody th {
 thead,
 td {
     font-size: 12px;
-}
-
-.stButton button {
-    background-color: #F1603F;
-    color: white;
-}
-
-.stButton button:hover {
-    background-color: #2A276C;
-    color: white;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-
-html,
-body,
-[class*="css"] {
-    font-family: 'IBM Plex Mono', monospace;
 }
